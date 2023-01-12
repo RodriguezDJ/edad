@@ -1,0 +1,21 @@
+var alumno = {
+    nombre:  ['juan','luis' ],
+    apellidos: ['hernandez','lopez' ] ,
+    fecha_nacimiento: 1997, 
+    saludar(){
+        return "Hola mi nombre es: "+ this.nombre[0,1] +" "+ this.apellidos[0,1] + " mucho gusto";
+    },edad(){
+   
+        return "Mi edad es:" + this.fecha_nacimiento-2023;       
+    }
+
+}
+function presentar(){
+    alert(alumno.edad());
+}
+
+  
+  
+
+
+ 
